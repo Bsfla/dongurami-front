@@ -1,24 +1,36 @@
 # 💻 동그라미 (CIRCLE)
 
-### 인덕대학교 학생들을 동아리 서비스
+### 인덕대학교 학생들을 위한 동아리 서비스
 
 > 개발 일자 : 2021.08.01 ~
-
 </br>
 
-* <a href="#-기술-스택">기술 스택</a>  
+- <a href="#-실제-서비스-사진">서비스</a>
 
-* <a href="#-Git-Flow">Git Flow</a> 
+- <a href="#-기술-스택">기술 스택</a>
 
-* <a href="#-데이터베이스-ERD">ERD</a> 
+- <a href="#-모던-애자일-2기">조직도</a>
 
-* <a href="#-커밋-전략">커밋</a>  
-  
-* <a href="#-협업">협업</a> 
+- <a href="#-Git-Flow">Git Flow</a>
 
-* <a href="https://lovelyoch.notion.site/Dongurami-b5054bb288994d9c90d2d88a1642cb50">Notion</a>
+- <a href="#-데이터베이스-ERD">ERD</a>
+
+- <a href="#-커밋-전략">커밋</a>
+
+- <a href="#-협업">협업</a>
+
+- <a href="#-기술-아키텍처">기술 아키텍처</a>
+
+<br/>
 <br/>
 
+## 📺 실제 서비스 사진
+
+### URL: https://dongurami.co.kr
+
+![동그라미-메인](https://user-images.githubusercontent.com/46591459/150901615-69427ccf-2f93-4f45-a5ac-49f239aeaf07.png)
+
+<br/>
 <br/>
 <br/>
 
@@ -31,9 +43,36 @@
   <img src="https://img.shields.io/badge/HTML-white?logo=html5"/>
   <img src= "https://img.shields.io/badge/CSS-blue?logo=css3"/>
   <img src= "https://img.shields.io/badge/Scss-pink?logo=sass"/>
-  <img src= "https://img.shields.io/badge/Next-blue?logo=react"/>
+  <img src= "https://img.shields.io/badge/React-blue?logo=react"/>
+  <img src= "https://img.shields.io/badge/Next.js-black?logo=next-dot-js&logoColor=white"/>
   <img src= "https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript"/>
-  <img src="https://img.shields.io/badge/Redux-purple?logo=Redux&logoColor=white">
+  
+</p>
+
+<h3 align="center">  
+ BackEnd
+</h3>
+<p align="center">  
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=Node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat&logo=Express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=flat&logo=JavaScript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RestFul-EF2D5E?style=flat&logoColor=white"/>
+  
+<br/>
+
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL%20Workbench-4479A1?style=flat&logo=MySQL&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jest-C21325?style=flat&logo=Jest&logoColor=white"/>
+ 
+<br/>
+  
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=Amazon%20AWS&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux(Ubuntu)-E95420?style=flat&logo=Ubuntu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=Jenkins&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/>
+
 </p>
 
 <h3 align="center">  
@@ -43,30 +82,13 @@
   <img src="https://img.shields.io/badge/GitHub-100000?logo=github" />
   <img src= "https://img.shields.io/badge/Git-FF4500?logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/KakaoWork-white?logo=kakao&logoColor=yellow"/>
+  <img src="https://img.shields.io/badge/Kanban-FF9E0F?style=flat&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Agile-246FDB?style=flat&logoColor=white"/>
 </p>
 <br/>
 <br/>
 
-## Next.js
-> * Next는 SSR을 함으로써 CSR을 하는 React에 비해 **높은 SEO와 초기 렌더링 시점을 앞당길 수 있음**
-> * **동적 라우팅** pages/post/[id] -> post/1로 접근 가능
-
-<br/>
-
-## SCSS(Module)
-> * **변수**(Variable) & **중첩**(Nesting) & **임포트**(Import)
-
-<br/>
-
-## Redux-Toolkit
-> - **action type**이나 **action creator**를 따로 생성해주지 않아도 됨
-> - **redux thunk**가 내장되어 비동기 지원
-> - **mutable** 객체 사용 가능
-
-<br/>
-<br/>
-
-## <img src="https://user-images.githubusercontent.com/75289370/120157070-968be700-c22d-11eb-970f-9b9e9fcc7778.png" width="30px;" />&nbsp; 우아한 애자일 2기
+## <img src="https://user-images.githubusercontent.com/75289370/120157070-968be700-c22d-11eb-970f-9b9e9fcc7778.png" width="30px;" />&nbsp; 모던 애자일 2기
 
 ### 회장
 
@@ -100,59 +122,27 @@
        
   </tr>
 </table>
-     
-## 📕 기능 구현 목록
-- 기본적인 CRUD 기능 구현
-   - AWS S3를 통한 이미지 업로드 포함
-- 인증 기능 구현
-   - 회원가입
-      - bcrypt를 이용하여 비밀번호 해시암호화
-      - salt와 함께 DB에 저장한다. -> salt는 비밀번호 복호화 시에도 사용된다.
-   - 로그인
-      - JWT 이용
-      - HS256 알고리즘 사용
-      - 로그인 유효시간 24시간
-   - 아이디 찾기
-      - 사용자가 입력한 이름 & 이메일을 인증한 후 해당 이메일로 아이디 발송
-   - 비밀번호 찾기
-      - 사용자가 입력한 아이디 & 이메일을 인증한 후 해당 이메일로 비밀번호 변경 URL 발송
-      - 비밀번호 변경 페이지의 URL은 랜덤한 토큰값 사용
-         - 토큰 유효시간 24시간
-         - 비밀번호가 변경되면 토큰이 삭제된다. -> 동일한 토큰으로 비번 변경은 1회만 가능.
-         - URL을 전달받은 회원만 비번 변경이 가능하다.
-- 알림 기능 구현
-   - 가입 승인
-   - 가입 거절
-   - 대댓글
-   - 동아리 일정 생성
-- 동아리 홍보 게시판 구현 (Modal)
-- 프로필 구현
-- 무한 스크롤 구현
-- 댓글(대댓글) 기능 구현
-- 스크랩 기능 구현
 
-<br />
-<br />
+<br/>
+<br/>
 
 ## 📄 Git Flow
 
-![Git Flow](https://user-images.githubusercontent.com/63432381/147808486-ddcb4190-0772-42bb-8854-e2cf89e894c0.png)
+![git flow](https://user-images.githubusercontent.com/75289370/120147819-3cd1ef80-c222-11eb-86b6-e8146cdbabbe.png)
 
 <br/>
 <br/>
        
 ## 📄 데이터베이스 ERD
 
-<img width="1274" alt="스크린샷 2021-08-12 오후 3 43 36" src="https://user-images.githubusercontent.com/79014269/129150164-15494aea-846c-4c17-b155-3021f5e9308e.png">
-<img width="981" alt="스크린샷 2021-08-11 오전 10 44 51" src="https://user-images.githubusercontent.com/79014269/128978313-f1106646-7bd3-408d-b50b-15195db899a2.png">
+<img width="1340" alt="스크린샷 2022-01-24 오후 1 58 54" src="https://user-images.githubusercontent.com/79014269/150724560-e4ce9ace-3654-4bea-a1fe-e55eadb09e21.png">
 
-       
 <br/>
 <br/>
        
-## 📄 커밋 전략♡
-       
-![Commit Stratage](https://user-images.githubusercontent.com/63432381/147808512-2a696e77-2e23-4608-9715-9d257baf6e0d.png)
+## 📄 커밋 전략
+
+![image](https://user-images.githubusercontent.com/75289370/120154537-f59c2c80-c22a-11eb-89b1-5b9ebd5f19b0.png)
 
 <br/>
 <br/>
@@ -168,10 +158,6 @@
      - 기능 구현을 시작할 때나 완료하였을 때는 기술 스택은 어떤 것을 사용했고, 왜 사용했는지 등에 대해 구체적으로 나누었으며, 더 좋은 방안은 없는지 팀원들의 피드백을 수렴했다.
    - 스프린트:
      - `GitHub`의 `Issue`를 활용.
-     - 1주 ~ 4주의 기간동안 스프린트를 진행했다.
-     - 스프린트가 시작되는 날에는 스프린트 회의를 통해 공동의 목표를 세우고 기간을 설정했다.
-     - 스프린트가 끝나면 스프린트 리뷰를 통해 해당 스프린트의 좋았던 점과 아쉬웠던 점 그리고 결과물을 공유했다.
-     - 공동의 목표가 세워지면 큰 목표를 달성하기 위한 작은 목표를 다시 세우고 인원을 분배했다.
      - 개개인이 주도적으로 자신의 개발 프로세스를 선정하고 **스프린트(Issue)** 를 작성했다.
      - 각 **스프린트** 는 프로젝트 **칸반보드**의 ToDo가 되었으며, 이를 각 팀원이 직접 **오늘 할 일**을 지정하여 In Progress로 옮겨 작업하였다.
      - 팀원이 미처 발견하지 못한 Issue가 있을 경우에는 회장 **오창훈** / 부회장(프론트 팀장) **민순기** / 백엔드 팀장 **이석호** 가 최종 스프린트를 작성하였다.
@@ -182,3 +168,15 @@
 
 ![협업1](https://user-images.githubusercontent.com/64779472/120282431-0b762400-c2f5-11eb-8155-f8029bb3f02a.PNG)
 ![협업2](https://user-images.githubusercontent.com/64779472/120282433-0dd87e00-c2f5-11eb-97b3-0c8c737c9e90.PNG)
+
+<br/>
+<br/>
+
+## 🖼 기술 아키텍처
+
+> 프로덕트 서버의 기술 아키텍쳐
+- 개발 서버도 아래와 동일하다
+- Jenkins와 Docker를 사용하여 **배포 자동화**를 구현하였다.
+
+![](https://user-images.githubusercontent.com/46591459/151274712-b07115b1-fd64-45e2-823b-94d182c28dae.png)
+
