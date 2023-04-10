@@ -130,113 +130,99 @@
 <br/>
 <br/>
 
-## 🖥주요기능 미리보기
+## 🖥 주요기능 미리보기
 
 <table>
   <tr>
     <td>미리보기</td>
     <td>설명</td>
   </tr>
-  
   <tr>
     <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230727842-1c259332-9a2d-49b5-af54-dde32574fa0f.gif width="600">
-    </td>
-    <td>
-      <b>로그인 & 회원가입</b> <br /><br />
-      - 웹 페이지에 들어오면 제일 먼저 볼 수 있는 로그인 페이지 입니다. <br />
-      - 프리버드는 회원이 인증된 사람만 이용할 수 있기 때문에 회원가입 후 로그인을 해야 서비스 이용이 가능합니다.
-    </td>
-  </tr>
-
-  <tr>
-    <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230728140-830a6606-ebac-492d-a0e0-b48dde68f271.gif width="600">
+      <img src=https://user-images.githubusercontent.com/75163050/230908096-552c8ea2-bc43-4d85-bbd2-072b35aaac6f.gif width="600">
     </td>
     <td>
       <b>메인 페이지</b> <br /><br />
-      - 프리버드의 메인페이지 입니다. <br /><br />
-      - 팔로잉한 유저의 최신글을 빠르게 볼 수 있습니다. <br />
+      - 동그라미의 메인페이지 입니다. <br /><br />
+    </td>
+  </tr>
+  
+  <tr>
+    <td>
+      <img src=https://user-images.githubusercontent.com/75163050/230910463-f7488916-701b-4175-87bc-73ed6f4b3af9.gif width="600">
+    </td>
+    <td>
+      <b>로그인 & 회원가입</b> <br /><br />
+      - 로그인 & 회원가입은 네이버oauth 또는 자체 회원가입을 통해 가입하실 수 있습니다. <br />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=https://user-images.githubusercontent.com/75163050/230911411-0adcf8f6-07f4-4cf8-a509-024d38c8ebaa.gif>
+    </td>
+    <td>
+      <b>게시판</b> <br /><br />
+      - 공지 게시판과 자유 게시판이 있습니다<br /><br />
+      - 게시글 작성, 조회 기능이 있습니다 작성한 글의 수정과 삭제 또한 가능합니다.<br /><br />
+      - 댓글, 대댓글, 좋아요 기능이 있습니다<br /><br />
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=https://user-images.githubusercontent.com/75163050/230912727-5c0ea670-326f-46d2-b256-ab764d4cf091.gif width="600">
+    </td>
+    <td>
+      <b>동아리 목록</b> <br /> <br />
+      - 인덕대학교 동아리 목록을 보여주는 페이지입니다 <br /><br />
+      - 관심있는 동아리를 클릭하면 해당 동아리 홈페이지로 이동됩니다..<br /><br />
+      - 카테고리 필터링, 동아리 이름을 검색해서 원하는 동아리를 찾을 수 있습니다.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src=https://user-images.githubusercontent.com/75163050/230915607-ee42b3a5-fca1-4bed-ada5-159bef9e12bc.gif width="600">
+    </td>
+    <td>
+      <b>홍보 게시판</b> <br /> <br />
+      - 동아리를 학생들에게 홍보할 수 있는 홍보게시판 입니다.<br /><br />
+      - 카테고리 별, 게시글 제목과 동아리 이름으로 게시글을 검색할 수 있습니다 <br /><br />
     </td>
   </tr>
 
   <tr>
     <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230841315-c84792ce-ac82-42ca-bd72-9e35a0131349.gif width="600">
+      <img src=https://user-images.githubusercontent.com/75163050/230918220-50ca4b7c-4fe3-4bed-97ce-781f5dee1a67.gif width="600">
     </td>
     <td>
-      <b>메인 페이지 (글 작성하기)</b> <br /><br />
-      - 게시글을 작성할 수 있습니다.<br /><br />
-      -  이미지를 업로드 할 수 있습니다 <br /><br />
-      - # 를 이용해서 해쉬태그를 작성할 수 있습니다. <br /><br />
-      - 작성한 글의 수정, 삭제를 할 수 있습니다. <br />
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230842557-79e73cf5-b3a6-4fd1-85d9-0b9451d935ed.gif width="600">
-    </td>
-    <td>
-      <b>게시글 좋아요! & 공유하기 기능</b> <br /> <br />
-      - 각 게시물마다 좋아요 기능을 사용 할 수 있습니다. <br /><br />
-      - 관심 있는 게시물을 공유할 수 있는 공유하기 기능이 있습니다.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230851296-cadce5e2-3853-47be-aa79-280e8c73070f.gif width="600">
-    </td>
-    <td>
-      <b>댓글 기능</b> <br /> <br />
-      - 각 게시물의 상세 페이지에서 댓글을 남길 수 있습니다. <br /><br />
-      - 대댓글 기능이 있습니다 <br /><br />
-      - 댓글, 대댓글  수정과 삭제가 가능합니다.
+      <b>동아리 홈</b> <br /><br />
+      - 동아리에 대한 정보를 볼 수 있는 동아리 홈 페이지입니다. <br /><br />
+      - 동아리 소개, 동아리 일정, 동아리 게시판, 동아리 지원하기, 평점 남기기 기능이 있습니다 동아리 회장들은 회원을 관리할 수 있는 관리자 기능도 제공하고 있습니다.<br /><br />
+      - 해당 동아리에 가입된 동아리 원들만 이용할 수 있는 기능입니다.
     </td>
   </tr>
 
   <tr>
     <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230853152-19573566-ea34-48b6-bb33-be686a724e05.gif width="600">
+      <img src=https://user-images.githubusercontent.com/75163050/230919636-425b41fe-0738-434d-8950-cbff555790b5.gif width="600">
     </td>
     <td>
-      <b>마이페이지</b> <br /><br />
-      - 마이페이지에서는 자신의 정보를 볼 수 있습니다. <br /><br />
-      - 프로필 수정 버튼을 통해 자신의 프로필 이미지, 닉네임, 1줄 자기 소개를 수정할 수 있습니다. <br /><br />
-      - 자신이 작성한 글 목록을 볼 수 있습니다.
+      <b>쪽지</b> <br /><br />
+      - 다른 유저와 쪽지로 소통할 수 있습니다<br /><br />
+      - 쪽지함 페이지에서 송수신된 쪽지를 확인할 수 있고 답장도 보낼 수 있습니다 <br />
     </td>
   </tr>
 
   <tr>
     <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230853950-a7592a51-6211-4b1f-875a-51b79a6b98a2.gif width="600">
+      <img src=https://user-images.githubusercontent.com/75163050/230921061-c7b56396-11ca-4743-9375-e6579ee70fd8.gif width="600">
     </td>
     <td>
-      <b>친구 목록 페이지</b> <br /><br />
-      - 현재 팔로우, 팔로잉 되어있는 유저들의 정보를 볼 수 있습니다. <br /><br />
-      - 해당 유저의 프로필 보기와 팔로우, 팔로잉 삭제하기가 가능합니다. <br />
+      <b>마이 페이지</b> <br /><br />
+      - 유저의 정보를 보여줍니다. <br /><br />
+      - 자신이 스크랩한 게시글을 볼 수 있습니다
+      - 자신이 작성한 글과 댓글을 볼 수 있습니다.
     </td>
-  </tr>
-
-  <tr>
-    <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230855190-37a1f2c3-0c88-439e-a21f-d86390b6acac.gif width="600">
-    </td>
-    <td>
-      <b>친구 찾기 페이지</b> <br /><br />
-      - 팔로잉 할 수 있는  유저들의 목록이 보여집니다. <br /><br />
-      - 관심있는 유저를 팔로잉 하면 됩니다.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src=https://user-images.githubusercontent.com/75163050/230856053-f2a53099-0774-494e-9b33-8011df2bd493.gif width="600">
-    </td>
-    <td>
-      <b>게시물 검색기능</b> <br /><br />
-      - 해시태그를 이용해서 해쉬태그를 포함하는 게시물을 검색할 수 있습니다 <br /><br />
-      - 또한 오른쪽 사이드바에서 인기있는 해쉬태그 3가지를 순서대로 제공해서 핫한 해쉬태그 주제로 게시물을 검색할 수 있습니다.
-    </td>
-  </tr>
+       </tr>
 </table>
 <br />
 
